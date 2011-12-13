@@ -214,3 +214,14 @@ snippet fun
 # $... = array (...)
 snippet array
 	$${1:arrayName} = array('${2}' => ${3});${4}
+
+snippet phpforeach
+	<?php foreach(${1}) : ?>
+	<?php endforeach; ?>
+
+snippet phpif
+	<?php if (${1}) : ?>
+	<?php endif; ?>
+
+snippet basep
+	<?php if(!defined('BASEPATH')) exit('No.');
